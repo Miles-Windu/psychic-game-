@@ -43,7 +43,7 @@ document.onkeyup = function(event) {
 
 // If the user uses all of their guesses before they match the computer 
 // ===========================================================================================
-else if (guessNumber < 1){
+else if (guessNumber < 2){
 
     // add 1 to the total losses 
     losses++; 
