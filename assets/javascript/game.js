@@ -92,7 +92,7 @@ if (wins === 10) {
     letters = []; 
 
     // Victory Message 
-    alert("Congratulations!! You're a mind reader!");
+    alert("Congratulations!! You're a mind reader! Press another key to begin again!");
 }
 
 // If the user reaches 10 losses then the game is over with a "Try Again" message. 
@@ -106,7 +106,7 @@ if (losses === 10) {
     letters = [];
 
     // Defeat message 
-    alert("Better luck next time... ");
+    alert("Better luck next time... press another key to begin the game again!");
 }
 
 }
